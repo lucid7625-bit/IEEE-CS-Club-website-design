@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign In / Sign Up</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="queries.css">
+<style>
+body{
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(135deg,var(--blue),var(--orange));
+  font-family:'Poppins',sans-serif;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container_login">
+
+  <!-- Toggle -->
+  <div class="toggle" id="toggle">
+    <div class="slider"></div>
+    <button onclick="showLogin()">Login</button>
+    <button onclick="showSignup()">Sign Up</button>
+  </div>
+
+  <!-- Login -->
+  <div class="form login-form active">
+    <h2>Login</h2>
+    <input class="userDat" type="email" autofocus placeholder="Email">
+    <input class="userDat" type="password" placeholder="Password">
+    <button class="submit">Login</button>
+  </div>
+
+  <!-- Signup -->
+  <div class="form signup-form">
+    <h2>Create Account</h2>
+    <input class="userDat" type="text" placeholder="Full Name">
+    <input class="userDat" type="email" placeholder="Email">
+    <input class="userDat" type="password" placeholder="Password">
+    <button class="submit">Sign Up</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

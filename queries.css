@@ -1,0 +1,228 @@
+/*First break point is at 1160*/
+@media(max-width:72.5rem){
+    .container3{
+        display:auto;
+        justify-content:center;
+    }
+}
+
+/*Second break-point is at 928px*/
+@media(max-width:58rem){
+    html{
+        font-size:56.25%;
+        /*1rem=9px*/
+    }
+    .abouthead{
+        margin-top:10rem;
+    }
+    .nav-button{
+        display:none;
+    }
+    .login{
+        gap:3rem;
+    }
+    .mobile_nav{
+        display:inline-block;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .b_heading{
+        font-size: 3.8rem;
+    }
+    .enjchars{
+        top:-65%;
+        left:43%;
+    }
+
+}
+
+/*Third break-point is at 700px*/
+@media(max-width:43.75rem){
+    html{
+        font-size:50%;
+        /*1rem=8px*/
+    }
+    .b_heading{
+        font-size: 3.5rem;
+    }
+    
+    .m_heading{
+        font-size:3.6rem;
+    }
+    .s_heading{
+        font-size:2.5rem;
+    }
+    .btn-secondary{
+        font-size:1.7rem;
+    }
+    .container3{
+        margin:0 auto;
+        margin-bottom: 2rem;
+        margin-top: 18rem;
+    }
+    .container4{
+        width:97%;
+        margin:0 auto;
+        margin-bottom: 3.5rem;
+    }
+
+    .secondary_button{
+        gap:1.4rem;
+    }
+    .features{
+        margin-top: 15rem;
+    }
+    .enjchars{
+        top:-65%;
+        left:40%;
+    }
+    .hero{
+        padding-top:30rem;
+    }
+    .hidd_box{
+        width:40vw;
+        left:60%
+    }
+}
+
+/*Fourth break-point is at 616px*/
+@media(max-width:38.5rem){
+    html{
+        font-size:43.75%;
+        /*1rem=7px*/
+    }
+    .b_heading{
+        font-size:4rem;
+        letter-spacing:-0.2rem;
+        text-align: center;
+    }
+    
+    .secondary_button{
+        position:absolute;
+        left:32%;
+        gap:1.5rem;
+    }
+    
+    .abouthead{
+        margin: 0 auto;
+        margin-top:10.2rem;
+    }
+    
+    .container2{
+        display:flex;
+        flex-direction:column;
+        max-width:50rem;
+        margin: 0 auto;
+    }
+    .s_heading{
+        letter-spacing:-0.1rem;
+    }
+    .submit-button{
+        max-width: 16rem;
+    }
+    .para.para-new,.para-IEEE{
+        font-size:2.35rem;
+    }
+    
+    .cont_name,.cont_name2{
+        font-size:2.5rem;
+    }
+
+    .blocks{
+        grid-template-columns: none;
+    }
+    .cross_text{
+        grid-row:none;
+    }
+    .enjchars{
+        top:-120%;
+        left:20%;
+        
+    }
+    .hero{
+        padding-top: 40rem;
+    }
+    .hidd_box{
+        height:70vh;
+        width:40vw;
+        left:60%
+    }
+    .clock{
+        font-size:3.5rem;
+    }
+    .events{
+        margin-bottom: 30rem;;
+    }
+
+} 
+
+/*Fifth break point is at 480px*/   
+@media(max-width:31rem){
+      html{
+        font-size:37.5%;
+        /*1rem=5px*/
+    }
+    .secondary_button{
+        width:95%;
+        left:0;
+        justify-content: center;
+    }
+    .hero{
+        height:100vh;
+        width:100vw;
+    }
+    .enjchars{
+        top:-75%;
+        left:8%;
+        width:55rem;
+        
+    }
+    .hidden_buttons{
+        font-size:2rem;
+    }
+    .hidd_box{
+        height:70vh;
+        width:50vw;
+        left:50%
+    }
+    .clock{
+        font-size:3.5rem;
+    }
+}
+    
+    /*Last break point is at 360px*/
+    /*At this point there is no modern device but to make it more dynamic for any case*/
+@media(max-width:22.5rem){
+      html{
+        font-size:25%;
+        /*1rem=4px*/
+    }
+    .enjchars{
+        top:-90%;
+        left:-1%;
+        width:80rem;
+        
+    }
+    .hero{
+        padding-top: 70rem;
+    }
+    .b_heading{
+        font-size:6rem;
+    }
+    .btn-secondary{
+        width:30rem;
+        font-size:3rem;
+        padding:1.5rem;
+    }
+    .events{
+        margin-bottom: 75rem;
+        margin-top:8rem;
+        height:30vh;
+    }
+    .container_event{
+        margin-top: 10rem;
+    }
+    .comming_soon{
+        height:25vh;
+    }
+}
